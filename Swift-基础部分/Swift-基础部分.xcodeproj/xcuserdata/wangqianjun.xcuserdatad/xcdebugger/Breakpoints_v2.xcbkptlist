@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift-&#x57fa;&#x7840;&#x90e8;&#x5206;/ViewController.swift"
+            timestampString = "436353481.626964"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift-&#x57fa;&#x7840;&#x90e8;&#x5206;/ViewController.swift"
+            timestampString = "436340217.991227"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift-&#x57fa;&#x7840;&#x90e8;&#x5206;/ViewController.swift"
+            timestampString = "436353481.626964"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift_&#x57fa;&#x7840;&#x90e8;&#x5206;.shopingList.mutableAddressor : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "Swift-&#x57fa;&#x7840;&#x90e8;&#x5206;"
+                  urlString = "file:///Users/wangqianjun/Desktop/Study/Swift/Swift-%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86/Swift-%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86/ViewController.swift"
+                  timestampString = "436353517.947684"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_func1"
+                  moduleName = "Swift-&#x57fa;&#x7840;&#x90e8;&#x5206;"
+                  urlString = "file:///Users/wangqianjun/Desktop/Study/Swift/Swift-%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86/Swift-%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86/ViewController.swift"
+                  timestampString = "436353517.947831"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift-&#x57fa;&#x7840;&#x90e8;&#x5206;/ViewController.swift"
+            timestampString = "436353520.283456"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "testArray(listName:_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
