@@ -29,5 +29,24 @@ func initData() {
     let someResolution = Resolution()
     let someVideoModel = VideoModel()
     
+    
+    //结构体类型的成员逐一构造器 Memberwise Initializers (类实例没有)
+    let vga = Resolution(width: 640, height: 480)
+    
+    //所有的结构体和枚举类型都是值类型（值类型操作实际上是操作其拷贝）
+    var hd = vga
+    
+    //
+    someVideoModel.resolution = hd
+    someVideoModel.interlaced = true
+    someVideoModel.frameRate = 25.0
+    
+    let alsoVideoModel = someVideoModel
+    
+    // 恒等运算符（===），判断两个常量或者变量是否引用同一个类实例
+    
+    // 属性 Properties
+    
+    
 }
 
