@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         
         testOptionalBinding()
         testImplicitlyUnwrappedOptionals()
+        testDictionary()
 //        testAssertion()
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -64,7 +65,7 @@ func testAssertion() {
 var shopingList: [String] = ["Eggs","Milk"];
 var someInts = [Int]()
 var threeDoubles = [Double](count: 3, repeatedValue: 0.0)
-var anotherThreeDoubles = [Double](count: 3, repeatedValue: 3.3)
+var anotherThreeDoubles = Array(count: 3, repeatedValue: 3.3)
 var sixDoubles = threeDoubles + anotherThreeDoubles
 
 //简写外部参数名（Shorthand External Parameter Names）
@@ -75,10 +76,54 @@ func testArray( #listName: String, var list: [String], appendElements: String ..
     }
     println("finaly, the list is\(list)")
     
+    // 数组遍历
+    for item in list {
+        println(item)
+    }
+    
+    for (index, value) in enumerate(list) {
+        println("Item \(index + 1): \(value)")
+    }
+    
     return (list.count, list)
 }
 
+//============================== 字典 Dictionary
+var airports: Dictionary<String, String> = ["key1":"value1", "key2":"value2"]
+var dic = ["key":"value"]
 
+var nulDic = Dictionary<Int, String>()
+let constantDic = ["c1":"con1"];
+
+func testDictionary() {
+    println(airports["key1"])
+    airports.updateValue("value11", forKey: "key1")
+    println(airports["key1"]!)
+    if let value = airports["key1"] {
+        println("value is \(value)")
+    } else {
+        
+    }
+    
+    // 遍历字典
+    for (k, v) in airports {
+        println("\(k): \(v)")
+    }
+    
+    for k in airports.keys {
+        println("key:\(k)")
+    }
+    
+    for v in airports.values {
+        println("value:\(v)")
+    }
+    
+    nulDic[16] = "One value"
+    
+    nulDic = [:] // 字典为空
+    
+//    constantDic.updateValue("con2", forKey: "c1")
+}
 
 //============================= 元组 tuples
 
