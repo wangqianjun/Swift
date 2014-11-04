@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        testComputedProperties()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -83,12 +84,25 @@ struct Rect {
             origin.x = newCenter.x - (size.width / 2)
             origin.y = newCenter.y - (size.height / 2)
         }
+        
+        // 便捷setter声明（newValue）
+        
     }
 }
+
+// 只读计算属性（只有getter，没有setter）
+struct Cuboid {
+    var width = 0.0, height = 0.0, depth = 0.0
+    var volume: Double {
+        return width * height * depth
+    }
+}
+
 
 func testComputedProperties() {
     var square = Rect(origin: Point(x: 0, y: 0), size: Size(width: 10, height: 10))
     let initialSquareCenter = square.center
     square.center = Point(x: 10, y: 10)
+    
 }
 
