@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Swift-&#x57fa;&#x7840;&#x90e8;&#x5206;/ViewController.swift"
-            timestampString = "436430503.763846"
+            filePath = "Swift-&#x7c7b;&#x548c;&#x7ed3;&#x6784;&#x4f53;/ViewController.swift"
+            timestampString = "436437341.434964"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "120"
-            endingLineNumber = "120"
-            landmarkName = "testDictionary()"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "initData()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
