@@ -13,6 +13,7 @@ var arthur: Person?
 var number17: Apartment?
 var doris: Customer?
 var country: Country?
+var paragraph:HTMLElement?
 
 class ViewController: UIViewController {
 
@@ -100,6 +101,13 @@ func testStrongReferenceCyclesBetweenClass() {
     doris!.card = CreditCard(number: 88, customer: doris!)
     
     country = Country(name: "China", capitalName: "Beijing")
+    
+    paragraph = HTMLElement(name: "p", text: "hello World")
+//    println(paragraph!.asHTML())
+    println(paragraph!.asHTMLHasCaptureList())
+    //闭包与实例之间形成循环强引用
+    paragraph = nil
+    
 }
 
 //=====================4 解决实例之间的循环强引用
@@ -159,4 +167,50 @@ class City {
 }
 
 //=====================5 闭包引起的循环强引用
+/*
+循环强引用还会发生在当你将一个闭包赋值给类实例的某个属性，并且这个闭包体重又使用了实例。（因为闭包和类相似，都是引用类型）
+*/
+class HTMLElement {
+    let name: String
+    let text: String?
+    
+    // 该属性引用一个闭包（一个没有参数，返回类型为String的函数）
+//    lazy var asHTML:() -> String = {
+//        if let text = self.text {
+//            return "<\(self.name)>\(text)</\(self.name)>"
+//        } else {
+//            return"<\(self.name)/>"
+//        }
+//    }
+    
+    lazy var asHTMLHasCaptureList:() -> String = {
+//        [unowned self] (index: Int, stringToProcess: String) -> String in
+        [unowned self] in // 用无主引用而不是强引用来捕获self
+        if let text = self.text {
+            return "<\(self.name)>\(text)</\(self.name)>"
+        } else {
+            return"<\(self.name)/>"
+        }
+    }
+    
+    init(name: String, text: String? = nil) {
+        self.name = name
+        self.text = text
+    }
+    
+    deinit {
+        println("\(name) is being deinitialized")
+    }
+    
+    
+}
+
 //=====================6 解决闭包引起的循环强引用
+/*
+在定义闭包时定义捕获列列表作为闭包的一部分，通过这种方式可以解决闭包和类实例之间的循环强引用。
+*/
+
+//定义捕获列表
+//捕获列表中得每个元素都是由weak或者unowned关键字和实例引用（self或者someInstance）成对组成
+//每一对都在方括号中【】，通过逗号分开
+

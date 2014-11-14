@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Swift-AutomaticReferenceCounting/ViewController.swift"
-            timestampString = "437478985.302394"
+            timestampString = "437553656.363541"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
             landmarkName = "testStrongReferenceCyclesBetweenClass()"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,12 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Swift-AutomaticReferenceCounting/ViewController.swift"
-            timestampString = "437478978.299877"
+            timestampString = "437623350.622584"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "146"
-            endingLineNumber = "146"
-            landmarkName = "init(name:capitalName:)"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
+            landmarkName = "init(name:text:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -42,13 +42,43 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Swift-AutomaticReferenceCounting/ViewController.swift"
-            timestampString = "437478979.733281"
+            timestampString = "437623507.388755"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "155"
-            endingLineNumber = "155"
-            landmarkName = "init(name:country:)"
-            landmarkType = "5">
+            startingLineNumber = "187"
+            endingLineNumber = "187"
+            landmarkName = "asHTMLHasCaptureList"
+            landmarkType = "19">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift_AutomaticReferenceCounting.HTMLElement.asHTMLHasCaptureList.getter (Swift.Int, Swift.String) -&gt; Swift.String"
+                  moduleName = "Swift-AutomaticReferenceCounting"
+                  urlString = "file:///Users/wangqianjun/Desktop/Study/Swift/Swift-AutomaticReferenceCounting/Swift-AutomaticReferenceCounting/ViewController.swift"
+                  timestampString = "437623507.827526"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "187"
+                  endingLineNumber = "187"
+                  offsetFromSymbolStart = "756">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift_AutomaticReferenceCounting.HTMLElement.(asHTMLHasCaptureList.getter (Swift.Int, Swift.String) -&gt; Swift.String).(closure #1)"
+                  moduleName = "Swift-AutomaticReferenceCounting"
+                  urlString = "file:///Users/wangqianjun/Desktop/Study/Swift/Swift-AutomaticReferenceCounting/Swift-AutomaticReferenceCounting/ViewController.swift"
+                  timestampString = "437623507.82768"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "187"
+                  endingLineNumber = "187"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
