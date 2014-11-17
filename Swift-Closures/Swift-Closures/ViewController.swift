@@ -13,7 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 //        sortedArray()
-        trailingClosure()
+//        trailingClosure()
+        closureAreReferenceTypes()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -79,6 +80,32 @@ func trailingClosure() {
 }
 
 //===============3 值捕获     Capturing Values
-
+/*
+闭包可以在其定义的上下文中捕获常量或变量，即使定义这些常量或变量的原域已经不存在
+Swift最简单的闭包形式是嵌套函数。
+*/
+// 该函数返回类型为 （）-> Int, 函数类型做为返回类型
+func makeIncrementor(forIncrement amount: Int) -> () -> Int {
+    var runningTotal = 0
+    
+    // incrementor函数捕获外部函数体内已经存在的runningTotal和amount变量
+    func incrementor() -> Int {
+        runningTotal += amount
+        println("\(runningTotal)")
+        return runningTotal
+    }
+    
+    return incrementor
+}
 
 //===============4 闭包是引用类型 Closure Are Reference Types
+func closureAreReferenceTypes() {
+    let incrementByTen = makeIncrementor(forIncrement: 10)
+    incrementByTen()
+    incrementByTen()
+    incrementByTen()
+    let alsoIncrementByTen = incrementByTen
+    
+    // 闭包是引用类型
+    alsoIncrementByTen()
+}
