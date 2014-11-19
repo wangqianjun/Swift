@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift-&#x6784;&#x9020;&#x8fc7;&#x7a0b;/ViewController.swift"
+            timestampString = "437038660.824693"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "init(origin:size:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift-&#x6784;&#x9020;&#x8fc7;&#x7a0b;/ViewController.swift"
+            timestampString = "437038660.824693"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "init(center:size:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift-&#x6784;&#x9020;&#x8fc7;&#x7a0b;/ViewController.swift"
+            timestampString = "437038660.824693"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "init()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift-&#x6784;&#x9020;&#x8fc7;&#x7a0b;/ViewController.swift"
+            timestampString = "437038660.824693"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "223"
+            endingLineNumber = "223"
+            landmarkName = "testInitProgress()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift-&#x6784;&#x9020;&#x8fc7;&#x7a0b;/ViewController.swift"
+            timestampString = "437038580.667092"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
+            landmarkName = "init(name:age:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift_&#x6784;&#x9020;&#x8fc7;&#x7a0b;.People.init (Swift_&#x6784;&#x9020;&#x8fc7;&#x7a0b;.People.Type)(name : Swift.String, age : Swift.Int) -&gt; Swift_&#x6784;&#x9020;&#x8fc7;&#x7a0b;.People"
+                  moduleName = "Swift-&#x6784;&#x9020;&#x8fc7;&#x7a0b;"
+                  urlString = "file:///Users/wangqianjun/Desktop/Study/Swift/Swift-%E6%9E%84%E9%80%A0%E8%BF%87%E7%A8%8B/Swift-%E6%9E%84%E9%80%A0%E8%BF%87%E7%A8%8B/ViewController.swift"
+                  timestampString = "437038662.240927"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift_&#x6784;&#x9020;&#x8fc7;&#x7a0b;.Student.init (Swift_&#x6784;&#x9020;&#x8fc7;&#x7a0b;.Student.Type)(name : Swift.String, age : Swift.Int) -&gt; Swift_&#x6784;&#x9020;&#x8fc7;&#x7a0b;.Student"
+                  moduleName = "Swift-&#x6784;&#x9020;&#x8fc7;&#x7a0b;"
+                  urlString = "file:///Users/wangqianjun/Desktop/Study/Swift/Swift-%E6%9E%84%E9%80%A0%E8%BF%87%E7%A8%8B/Swift-%E6%9E%84%E9%80%A0%E8%BF%87%E7%A8%8B/ViewController.swift"
+                  timestampString = "437038662.241082"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift-&#x6784;&#x9020;&#x8fc7;&#x7a0b;/ViewController.swift"
+            timestampString = "437038581.747087"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
+            landmarkName = "init(name:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift-&#x6784;&#x9020;&#x8fc7;&#x7a0b;/ViewController.swift"
+            timestampString = "437038583.344869"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "202"
+            endingLineNumber = "202"
+            landmarkName = "init(name:age:number:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift-&#x6784;&#x9020;&#x8fc7;&#x7a0b;/ViewController.swift"
+            timestampString = "437038584.908365"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "216"
+            endingLineNumber = "216"
+            landmarkName = "init(name:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
